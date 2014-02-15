@@ -53,5 +53,6 @@ public class RomanNumeralConvertorTest extends TestCase {
         assertEquals(1004,convertor.convertRomanNumeralToDecimal("MIV"));
         assertEquals(1400,convertor.convertRomanNumeralToDecimal("MCD"));
         assertEquals(1449,convertor.convertRomanNumeralToDecimal("MCDXLIX"));
+        assertEquals(2459,convertor.convertRomanNumeralToDecimal("MMCDLIX"));
     }
 }
